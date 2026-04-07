@@ -28,7 +28,6 @@
     </div>
     
     <div id="page1" class="glass-card hidden">
-        <!-- Matches: giphy.gif -->
         <img src="giphy.gif" alt="Cute" class="floating">
         <h1>Hey Tripathi ji, will you be my best friend? 😌</h1>
         <p>- Pandey ji is asking...</p>
@@ -39,7 +38,6 @@
     </div>
 
     <div id="page2" class="glass-card hidden">
-        <!-- Matches: giphy (1).gif -->
         <img src="giphy (1).gif" alt="Ouch" class="floating">
         <h1>Ouch! That was quick. 🥺</h1>
         <p>Are you seriously saying No to me?</p>
@@ -50,7 +48,6 @@
     </div>
 
     <div id="page3" class="glass-card hidden">
-        <!-- Matches: giphy (2).gif -->
         <img src="giphy (2).gif" alt="Thinking" class="floating">
         <h1>Are you sure? 🤨</h1>
         <p>Pandey ji is very cute, just so you know...</p>
@@ -61,7 +58,6 @@
     </div>
 
     <div id="page4" class="glass-card hidden">
-        <!-- Matches: giphy (3).gif -->
         <img src="giphy (3).gif" alt="Pizza" class="floating">
         <h1>I will literally share my pizza with you! 🍕</h1>
         <p>Now you can't refuse...</p>
@@ -72,7 +68,6 @@
     </div>
 
     <div id="page5" class="glass-card hidden">
-        <!-- Matches: giphy (4).gif -->
         <img src="giphy (4).gif" alt="Sleeping" class="floating">
         <h1>Okay, I promise to listen to your boring stories too 😴</h1>
         <p>See how much I'm compromising?</p>
@@ -83,7 +78,6 @@
     </div>
 
     <div id="page6" class="glass-card hidden">
-        <!-- Matches: giphy (5).gif -->
         <img src="giphy (5).gif" alt="Talking" class="floating">
         <h1>I'll even let you win arguments! 🙄</h1>
         <p>(Well, sometimes...)</p>
@@ -94,7 +88,6 @@
     </div>
 
     <div id="page7" class="glass-card hidden">
-        <!-- Matches: giphy (6).gif -->
         <img src="giphy (6).gif" alt="Sad" class="floating">
         <h1>You are breaking my heart Tripathi ji 💔</h1>
         <p>Bohot nakhre hain aapke...</p>
@@ -105,7 +98,6 @@
     </div>
 
     <div id="page8" class="glass-card hidden">
-        <!-- Matches: giphy (7).gif -->
         <img src="giphy (7).gif" alt="Crying" class="floating">
         <h1>Okay fine, I'm actually crying now 😭</h1>
         <p>Maan jao na please?</p>
@@ -116,7 +108,6 @@
     </div>
 
     <div id="page9" class="glass-card hidden">
-        <!-- Matches: giphy (8).gif -->
         <img src="giphy (8).gif" alt="Angry" class="floating">
         <h1>Stop clicking No! 😤</h1>
         <p>It's officially illegal to say No to me.</p>
@@ -129,44 +120,44 @@
     <!-- The Tables Turn! "No" Button Runs Away -->
 
     <div id="page10" class="glass-card hidden">
-        <!-- Matches: giphy (9).gif -->
         <img src="giphy (9).gif" alt="Magic" class="floating">
         <h1>Fine! The universe is taking over! 🌌</h1>
         <p>The rules are changing right now...</p>
         <div class="button-container">
-            <button class="btn yes" onclick="showPage('yes-page')">Yes</button>
+            <!-- CHANGED: Now goes to page 11 -->
+            <button class="btn yes" onclick="showPage('page11')">Yes</button>
             <button class="btn no runaway-btn">No</button>
         </div>
     </div>
 
     <div id="page11" class="glass-card hidden">
-        <!-- Matches: giphy (10).gif -->
         <img src="giphy (10).gif" alt="Smug" class="floating">
         <h1>Haha! Magic! ✨</h1>
         <p>Try clicking No now Tripathi ji! 😈</p>
         <div class="button-container">
-            <button class="btn yes" onclick="showPage('yes-page')">Yes</button>
+            <!-- CHANGED: Now goes to page 12 -->
+            <button class="btn yes" onclick="showPage('page12')">Yes</button>
             <button class="btn no runaway-btn">No</button>
         </div>
     </div>
 
     <div id="page12" class="glass-card hidden">
-        <!-- Matches: giphy (11).gif -->
         <img src="giphy (11).gif" alt="Hug" class="floating">
         <h1>Looks like you are stuck with me! 💖</h1>
         <p>No escape from Pandey ji...</p>
         <div class="button-container">
-            <button class="btn yes" onclick="showPage('yes-page')">Yes</button>
+            <!-- CHANGED: Now goes to page 13 -->
+            <button class="btn yes" onclick="showPage('page13')">Yes</button>
             <button class="btn no runaway-btn">No</button>
         </div>
     </div>
 
     <div id="page13" class="glass-card hidden">
-        <!-- Matches: giphy (12).gif -->
         <img src="giphy (12).gif" alt="Love" class="floating">
         <h1>Just accept your fate! 😌</h1>
         <p>Click YES and make my day!</p>
         <div class="button-container">
+            <!-- CHANGED: Finally goes to the end -->
             <button class="btn yes" onclick="showPage('yes-page')">Yes</button>
             <button class="btn no runaway-btn">No</button>
         </div>
@@ -174,7 +165,6 @@
 
     <!-- Final Page: YES -->
     <div id="yes-page" class="glass-card hidden">
-        <!-- Matches: giphy (13).gif -->
         <img src="giphy (13).gif" alt="Happy" class="floating">
         <h1>I knew it! Besties forever! 🎉💖</h1>
         <p>Tripathi ji & Pandey Ji ✨</p>
